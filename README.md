@@ -3,6 +3,12 @@
 Use a local LLM to rephrase anki cards for you so you can learn the content
 instead of just memorizing the question
 
+
+
+https://github.com/user-attachments/assets/ccba24b1-9a7d-4065-84d2-713ac3cf7cba
+
+
+
 ## The Problem
 If you've used spaced repetition tools or flash cards long enough, you've
 probably found yourself being able to answer the question on the card just
