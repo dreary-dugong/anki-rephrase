@@ -1,5 +1,6 @@
 from aqt import mw
 from aqt import gui_hooks
+from aqt.operations import QueryOp
 
 from anki.models import ModelManager
 
@@ -43,8 +44,12 @@ def rephraseCardInBackground(_reviewer, card, _ease):
     model = Model(modelName, domain, port)
 
     # start background thread
-    rephraseCard(card, model)
-
+    op = QueryOp(
+        parent=mw,
+        op=lambda col: rephraseCard(card, model),
+        success=lambda *args: None
+    )
+    op.run_in_background()
     return
 
 
