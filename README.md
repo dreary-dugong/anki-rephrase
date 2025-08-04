@@ -31,3 +31,11 @@ default ollama port on localhost and attempts to connect to it and pass a
 prompt to llama3.1:8b. The host, port, and model are all configurable from
 within anki's add-on configuration menu. For more info on setting up Ollama,
 see [ollama/ollama](https://github.com/ollama/ollama).
+
+## Roadmap
+- [] button for reverting a card back to its original wording
+- [] button for rephrasing a card on-demand
+- [] mark a rephrasing as bad (to avoid in the future)
+- [] tag to never rephrase card
+- [] disable/enable plugin
+- [] avoid rephrasing certain important words or phrases (marked in bold?)
