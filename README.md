@@ -33,6 +33,8 @@ within anki's add-on configuration menu. For more info on setting up Ollama,
 see [ollama/ollama](https://github.com/ollama/ollama).
 
 ## Roadmap
+- [] save rephrased question to another field so it's only shown when 
+plugin is active (e.g. don't show rephrased questions on mobile)
 - [] button for reverting a card back to its original wording
 - [] button for rephrasing a card on-demand
 - [] mark a rephrasing as bad (to avoid in the future)
